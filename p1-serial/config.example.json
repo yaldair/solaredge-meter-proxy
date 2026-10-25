@@ -1,0 +1,8 @@
+{
+  "p1_server_address": "192.168.1.50:23",
+  "serial_port": "/dev/ttyACM0",
+  "meter_id": 3,
+  "meter_serial": "12345678",
+  "swap_l1_l3": false,
+  "debug": false
+}

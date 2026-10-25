@@ -1,0 +1,13 @@
+[Unit]
+Description=SolarEdge P1 -> Modbus RTU meter proxy
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/se_proxy
+ExecStart=/opt/se_proxy/p1-serial -config /opt/se_proxy/config.json
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+{
+  "mqtt_broker": "tcp://192.168.1.10:1883",
+  "mqtt_topic": "garage_meter/api",
+  "mqtt_username": "",
+  "mqtt_password": "",
+  "mqtt_client_id": "solaredge-mqtt-proxy",
+  "modbus_tcp_port": ":502",
+  "meter_id": 3,
+  "meter_serial": "12345678",
+  "debug": false
+}
