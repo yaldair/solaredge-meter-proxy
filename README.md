@@ -137,6 +137,10 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now se-p1-serial
 journalctl -u se-p1-serial -f
 ```
+Add for the mqtt-tcp variant a modbusproxy user, that also owns the binary. 
+```bash
+sudo useradd --system --no-create-home --shell /usr/sbin/nologin modbusproxy
+```
 
 ## Technical notes
 
