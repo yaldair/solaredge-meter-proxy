@@ -1,0 +1,6 @@
+# real configs contain IPs / credentials
+config.json
+# build output
+/bin/
+p1-serial/p1-serial
+mqtt-tcp/mqtt-tcp
